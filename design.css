@@ -1,0 +1,114 @@
+  html{
+    font-size: 16px;
+
+  }
+body {
+    background: url(space-background.png);
+    font-family: 'Open Sans', arial, sans-serif;
+    
+
+  }
+  
+  * {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 28px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  ul li {
+    list-style: decimal inside;
+  }
+  
+  /*
+   * Heading Styles
+  */
+  
+  
+  h1, h2 {
+    font-family: 'Lobster', cursive;
+    color: #e22f8f;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  h1 {
+  
+    font-size: 2.75rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  /*
+   * Container Styles
+  */
+  
+  .container {
+    width: 600px;
+    margin: 10% auto;
+    
+  }
+/*
+   * hero Styles
+  */
+  .hero{
+
+    line-height: 0%;
+  }
+
+ .hero img{
+    width: 100% ;
+    border-radius: 20px 20px 0 0;
+  }
+  
+   /*
+   * aside Styles
+  */
+
+    aside.right{
+      float: right;
+    }
+
+    aside.left{
+      float: left;
+    }
+    /*
+   * aside Styles
+  */
+ section.intro , section.contact{
+  padding: 20px;
+ }
+
+
+section.intro{
+
+  background-color: white ;
+
+  ;
+}
+section.contact{
+  background-color: beige;
+}
+
+aside{
+
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
